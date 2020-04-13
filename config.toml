@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Ipman"
+theme = "techdoc"
+
+
+[params]
+    menu_style = "open-menu" # "open-menu" or "slide-menu"
+    #logo = "images.ipman.png"
