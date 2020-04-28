@@ -1,7 +1,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<img class="header_img" style="position: absolute; top:0px; left: 0px" src="/images/ipman.png" alt="ipman" />
+<div style="position: absolute; width: 100%;">
+<img class="header_img" style="top:0px; height: 6rem; margin: 0px auto 0px; display: block" src="/images/ipman_resize.png" alt="ipman" />
+</div>
 {{- if ne .Description "" }}
 <meta name="description" content="{{ .Description }}">
 {{- else if isset .Site.Params "description" }}
@@ -25,3 +27,6 @@
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
 {{- template "_internal/schema.html" . -}}
+<!-- Adding latex extension -->
+{{if .Params.katex}}{{partial "katex.html" .}}{{ end}}
+{{if .Params.mathjax}}{{partial "mathjax.html" .}}{{ end}}
