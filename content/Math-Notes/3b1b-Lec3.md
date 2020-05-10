@@ -10,4 +10,6 @@ My notes from 3blue1brown #3 lecture.
 Which numbers really exist?
 $$2,\\ \sqrt{2},\\ -3,\\ \sqrt{-1},\\ \infty \\ \text{?}$$
 
-Does numbers exist at all? What do we mean when we say that something exists? Maybe for math, we can defined it as something that is usefull in the real world. Think about it, negative numbers wasn't recognized as avalid solution by mathemeticians in the start. But in the real world they can have a meaning, they can explain e.g. how much money I owe the bank.
+Does numbers exist at all? What do we mean when we say that something exists? Maybe for math, we can defined it as something that is usefull in the real world. Think about it, negative numbers wasn't recognized as valid solution by mathemeticians in the start. But in the real world they can have a meaning, they can explain e.g. how much money I owe the bank.
+
+This lesson will try to show that defining complex numbers can be meaningful for the real world.
